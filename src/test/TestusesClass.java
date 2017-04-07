@@ -5,7 +5,7 @@ package com.aurea.deadcode.test;
  */
 public class TestusesClass implements ImplemetnInterface {
 
-    public void test(ImplemetnInterface.usedInnerClass var) {
+    public void test(ImplemetnInterface.usedInnerClass var, String unusedMethodVar) {
         CastClass test = (CastClass) new Object();
     }
 }
