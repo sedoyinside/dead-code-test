@@ -5,8 +5,8 @@ package com.aurea.deadcode.test;
  */
 public class UnusedClass {
 
-    public static final String TEST_UNUSED_STATIC_PUB ="dfdfs";
-    private static final String TEST_UNUSED_STATIC_PRIV ="3433";
+    public static final String TEST_UNUSED_STATIC_PUB_TT ="dfdfs";
+    private static final String TEST_UNUSED_STATIC_PRIV_TT ="3433";
     public Integer unusedPublicProp;
     private Integer unusedPrivateProp;
     public static final Integer unusedPSFProp = 1253;
