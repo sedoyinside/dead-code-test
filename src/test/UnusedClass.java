@@ -15,11 +15,12 @@ public class UnusedClass {
 
     public void unusedMethod() {
         System.out.println("ertet");
+        usedFunctionInUnsedClass();
     }
 
 
     public void setUnusedProp(Integer unusedPublicProp) {
-
+        System.out.println("ertet");
     }
 
     public Integer getUnusedProp() {
@@ -28,6 +29,14 @@ public class UnusedClass {
 
     public static class unusedInnerClass {
 
+    }
+
+    public void usedFunctionInUnsedClass() {
+        System.out.println("ertet");
+    }
+
+    public void unusedFunctionInUnsedClass {
+        System.out.println("ertet");
     }
 
 }
