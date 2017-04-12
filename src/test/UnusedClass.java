@@ -9,27 +9,27 @@ public class UnusedClass {
     private static final String TEST_UNUSED_STATIC_PRIV_TT ="3433";
     public Integer unusedPublicProp;
     private Integer unusedPrivateProp;
-    public static final Integer unusedPSFProp = 1253;
+    public static final Integer unusedPublicProp = 1253;
 
     public void methodWithUnsedLocalVar(String unsedParam) {
         int unsedVar;
     }
 
-    public void unusedMethod() {
+    public void unusedPublicMethod() {
         System.out.println("ertet");
         usedFunctionInUnsedClass();
     }
 
 
-    public void setUnusedProp(Integer unusedPublicProp) {
+    public void setUnusedPublicProp(Integer unusedPublicProp) {
         System.out.println("ertet");
     }
 
-    public Integer getUnusedProp() {
+    public Integer getUnusedPublicProp() {
         return 1;
     }
 
-    public static class unusedInnerClass {
+    public static class unusedPublicInnerClass {
 
     }
 
@@ -37,7 +37,11 @@ public class UnusedClass {
         System.out.println("ertet");
     }
 
-    public void unusedFunctionInUnsedClass {
+    private void unusedPrivateFunctionInUnsedClass {
+        System.out.println("ertet");
+    }
+
+    private void unusedPrivateMethodInUnsedClass {
         System.out.println("ertet");
     }
 

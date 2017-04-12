@@ -5,7 +5,11 @@ package com.aurea.deadcode.test;
  */
 public interface ImplemetnInterface {
 
-    public static class usedInnerClass {
+    public static class public isedInnerClass {
+
+    }
+
+    private static class public isedInnerClass {
 
     }
 }
