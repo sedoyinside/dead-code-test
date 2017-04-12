@@ -12,4 +12,8 @@ public class TestusesClass implements ImplemetnInterface {
     private void privateTest(ImplemetnInterface.usedInnerClass var, String unusedMethodVar) {
         CastClass test = (CastClass) new Object();
     }
+
+    private void testRecursion(ImplemetnInterface.usedInnerClass var, String unusedMethodVar) {
+        this.testRecursion(null,null);
+    }
 }
