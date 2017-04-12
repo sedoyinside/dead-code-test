@@ -16,6 +16,7 @@ public class UnusedClass {
     }
 
     public void unusedPublicMethod() {
+        String unusedLocalVar= "Test";
         System.out.println("ertet");
         usedFunctionInUnsedClass();
     }
@@ -44,6 +45,15 @@ public class UnusedClass {
     private String unusedPrivateMethodInUnsedClass {
         System.out.println("ertet");
         return "test"
+    }
+
+
+    private static class PrivateInnerClass {
+
+    }
+
+    public static class PublicInnerClass {
+
     }
 
 }

@@ -14,6 +14,9 @@ public class TestusesClass implements ImplemetnInterface {
     }
 
     private void testRecursion(ImplemetnInterface.usedInnerClass var, String unusedMethodVar) {
+        UnusedClass dsd;
         this.testRecursion(null,null);
     }
+
+
 }
