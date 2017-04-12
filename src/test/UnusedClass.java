@@ -15,14 +15,19 @@ public class UnusedClass {
         int unsedVar;
     }
 
-    public void unusedPublicMethod() {
-        String unusedLocalVar= "Test";
+    public void unusedPublicMethod(Integer unusedMethodVar) {
+        final String unusedFinalLocalVar= "Test";
+        final String unusedLocalVar= "Test";
         System.out.println("ertet");
         usedFunctionInUnsedClass();
     }
 
 
-    public void setUnusedPublicProp(Integer unusedPublicProp) {
+    public void setUnusedPublicProp(Integer unusedPublicProp1) {
+        final String unusedFinalLocalVar1= "Test";
+        final String unusedLocalVar1= "Test";
+        System.out.println("ertet");
+        usedFunctionInUnsedClass();
         System.out.println("ertet");
     }
 
