@@ -9,7 +9,7 @@ public class TestusesClass implements ImplemetnInterface {
         CastClass test = (CastClass) new Object();
     }
 
-    public void privateTest(ImplemetnInterface.usedInnerClass var, String unusedMethodVar) {
+    private void privateTest(ImplemetnInterface.usedInnerClass var, String unusedMethodVar) {
         CastClass test = (CastClass) new Object();
     }
 }
