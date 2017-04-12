@@ -8,4 +8,8 @@ public class TestusesClass implements ImplemetnInterface {
     public void test(ImplemetnInterface.usedInnerClass var, String unusedMethodVar) {
         CastClass test = (CastClass) new Object();
     }
+
+    public void privateTest(ImplemetnInterface.usedInnerClass var, String unusedMethodVar) {
+        CastClass test = (CastClass) new Object();
+    }
 }
