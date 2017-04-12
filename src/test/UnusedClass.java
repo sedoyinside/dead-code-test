@@ -41,8 +41,9 @@ public class UnusedClass {
         System.out.println("ertet");
     }
 
-    private void unusedPrivateMethodInUnsedClass {
+    private String unusedPrivateMethodInUnsedClass {
         System.out.println("ertet");
+        return "test"
     }
 
 }
