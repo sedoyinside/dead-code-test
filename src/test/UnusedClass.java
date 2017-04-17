@@ -10,6 +10,8 @@ public class UnusedClass {
     public Integer unusedPublicProp;
     private Integer unusedPrivateProp;
     public static final Integer unusedPublicProp = 1253;
+    volatile long volatileDEfaultUnused;
+    volatile private long volatilePrivateUnused;
 
     public void methodWithUnsedLocalVar(String unsedParam) {
         int unsedVar;
